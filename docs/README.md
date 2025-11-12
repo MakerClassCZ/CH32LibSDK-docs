@@ -1,6 +1,7 @@
 # CH32LibSDK - Dokumentace
 
 > **⚠️ Upozornění:** Tato dokumentace byla vygenerována pomocí umělé inteligence ze zdrojových souborů, příkladů a analýzy kódu. Informace v ní obsažené nemusí být 100% přesné. V případě pochybností se prosím vždy obraťte na oficiální dokumentaci od WCH nebo ověřte informace přímo ve zdrojovém kódu.
+>
 > Dokumentaci připravil a vygeneroval [Vláďa Smitka](https://x.com/MakerClassCZ).
 
 ## Úvod
