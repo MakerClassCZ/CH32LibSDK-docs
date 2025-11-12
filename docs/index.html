@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>CH32LibSDK - Dokumentace</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Dokumentace pro CH32LibSDK - vývojovou sadu pro CH32 RISC-V mikrokontroléry">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme: Simple Dark -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+
+  <style>
+    :root {
+      --base-font-size: 16px;
+      --theme-color: #42b983;
+    }
+
+    /* Czech language specific styles */
+    .markdown-section code {
+      font-size: 0.9em;
+    }
+
+    .markdown-section pre>code {
+      font-size: 0.85em;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Načítání dokumentace...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'CH32LibSDK',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+
+      // Czech language settings
+      search: {
+        placeholder: 'Hledat...',
+        noData: 'Nenalezeno',
+        depth: 3
+      },
+
+      // Pagination
+      pagination: {
+        previousText: 'Předchozí',
+        nextText: 'Další',
+      },
+
+      // Copy code button
+      copyCode: {
+        buttonText: 'Kopírovat',
+        errorText: 'Chyba',
+        successText: 'Zkopírováno'
+      }
+    }
+  </script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Search plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+  <!-- Copy code plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+  <!-- Pagination -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- Syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-makefile.min.js"></script>
+</body>
+</html>
